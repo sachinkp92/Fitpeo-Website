@@ -1,0 +1,103 @@
+.home {
+  color: rgb(86, 99, 219);
+}
+
+.basktet-icon {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(121, 121, 233);
+  border-radius: 8px;
+}
+.basktet-icon i {
+  font-size: 24px;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 8px; */
+  margin-bottom: 10px;
+}
+.dashboard-card {
+  background-color: grey;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 8px;
+  width: 18%;
+}
+.dashboard-card p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.orders h5 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.orders {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: green;
+}
+
+.netprofit-card {
+  width: 26%;
+  background-color: gray;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 8px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.netprofit-card p {
+  font-size: 12px;
+}
+
+.basket-green {
+  background-color: rgb(101, 175, 101);
+}
+.basket-red {
+  background-color: rgb(212, 82, 82);
+}
+.basket-pink {
+  background-color: rgb(196, 143, 152);
+}
+
+.netprofit-card h2 {
+  font-weight: 600;
+}
+.netprofit-card i,
+span {
+  color: rgb(101, 175, 101);
+  font-size: 18px;
+}
+
+.pie {
+  width: 100px;
+  height: 100px;
+  background-image: conic-gradient(blue 30%, rgb(73, 73, 201) 30%);
+  border-radius: 50%;
+}
+
+/* media quaries */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-wrap: wrap;
+  }
+  .dashboard-card {
+    width: 48%;
+  }
+  .netprofit-card {
+    width: 100%;
+  }
+}

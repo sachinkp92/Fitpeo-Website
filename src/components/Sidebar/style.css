@@ -1,0 +1,23 @@
+.sidebar {
+  background-color: rgb(59, 59, 59);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 16px;
+  min-height: calc(100vh - 76px);
+  width: 4%;
+}
+
+.side-menu i {
+  font-size: 28px;
+  color: #fff;
+}
+
+/* media quaries */
+@media (max-width: 768px) {
+  .side-menu i {
+    font-size: 20px;
+  }
+}
